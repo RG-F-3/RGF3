@@ -6,7 +6,8 @@ local Bladeball = PhantomForcesWindow:NewSection("BladeBall Main RGF3 V1")
 
 Bladeball:CreateToggle("Auto Parry RGF3", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/RG-F-3/RGF3/main/3mk"))()
 end)
-
+Bladeball:CreateToggle("Auto Parry RGF3", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry",true))()
+end)
 Bladeball:CreateToggle("Auto Spam RGF3 V1", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/DonGabrielle/AutoDetectV4/main/MainBalls"))()
 end)
 
