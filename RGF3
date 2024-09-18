@@ -1,20 +1,19 @@
 local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
 
-local PhantomForcesWindow = Library:NewWindow("RGF3 صنع راشد V1")
+local PhantomForcesWindow = Library:NewWindow("Xryus Ware X")
 
-local Bladeball = PhantomForcesWindow:NewSection("BladeBall Main RGF3 V1")
+local Bladeball = PhantomForcesWindow:NewSection("BladeBall Main Xryus Ware X V1")
 
-Bladeball:CreateToggle("Auto Parry RGF3", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry",true))()
+Bladeball:CreateToggle("Auto Parry Xryus Ware X",function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry",true))()
 end)
-Bladeball:CreateToggle("Auto Spam RGF3 V1", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/DonGabrielle/AutoDetectV4/main/MainBalls"))()
-end)
-
-Bladeball:CreateToggle("Auto Spam RGF3 V2", function()loadstring(https://raw.githubusercontent.com/RG-F-3/RGF3/main/3mk))()
+Bladeball:CreateToggle("Auto Spam Xryus Ware X V1", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/DonGabrielle/AutoDetectV4/main/MainBalls"))()
 end)
 
-_, Protected_by_MoonSecV2, Discord = 'https://discord.gg/fHQfM4mT'
+Bladeball:CreateToggle("Auto Spam Xryus Ware X V2", function()loadstring(https://raw.githubusercontent.com/RG-F-3/RGF3/main/3mk))()
+end)
+
+_, Protected_by_Xryus, Discord = 'https://discord.gg/k-s'
 
 
-Bladeball:CreateToggle("AutoDetect RGF3 V1",
-function()loadstring(game:HttpGet("https://pastebin.com/raw/pjTTegEe"))()
+Bladeball:CreateToggle("AutoDetect Xryus Ware X V1",loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Blade-ball-17775"))()
 end)
